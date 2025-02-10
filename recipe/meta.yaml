@@ -1,5 +1,5 @@
 {% set name = "poli" %}
-{% set version = "1.0.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MachineLearningLifeScience/poli/archive/v{{ version }}.tar.gz
-  sha256: 847ee30ba1ccc2e6d7145abe4977536199a814b16bdaff58b048609d0602f8a5
+  sha256: b8dca595df5d732de8124987b49cb61f8dd0fb2be0910ca99b96514a16922ad3
 
 build:
   skip: true  # [win]
